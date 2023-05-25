@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (C) 2019 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,7 +38,8 @@ import com.squareup.moshi.JsonClass
  * }
  */
 @JsonClass(generateAdapter = true)
-data class NetworkVideoContainer(val videos: List<NetworkVideo>)
+data class NetworkVideoContainer(
+    val videos: List<NetworkVideo>)
 
 /**
  * Videos represent a devbyte that can be played.
